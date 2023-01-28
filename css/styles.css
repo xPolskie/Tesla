@@ -1,0 +1,296 @@
+/* Reseteo de CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Importa fuente local */
+
+@font-face{
+    font-family: Allerta-Regular;
+    src: url(../assets/fonts/Allerta-Regular.ttf);
+}
+
+
+/* Cuerpo Principal, BG y Footer */
+
+body{
+    
+    font-family: Allerta-Regular;
+    letter-spacing: 2px;
+    background-color: black;
+}
+
+main{
+    color: #CECECE;
+    background-image: url(../assets/img/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 20px;
+}
+
+footer{
+    
+    text-align: center;
+    padding: 10px;
+    background-color:#7676763f ;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    flex-direction: column;
+    color: #CEFF51;
+    font-style: italic;
+    margin: 10px auto;
+}
+
+/* Derechos reservados del Footer */
+
+.teslaArms{
+    max-width: 500px;
+    margin: 10px auto;
+}
+
+.rights{
+    max-width: 500px;
+    margin: 10px auto;
+    font-size: 10px;
+}
+
+/* Navegador/Menu y Logo */
+
+nav{
+    text-align: center;
+    padding: 10px;
+}
+
+.logo, .logo-section{
+    background-color: #7676763f;
+    text-align: center;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.logo_arms:hover{
+    transform: scale(1.05);
+    border: #CEFF51 2px solid;
+    max-height: 126px;
+}
+
+.logo-section{
+    background: none;
+    width: 20%;
+}
+
+.menu{
+    list-style-type: none;
+    padding: 0;
+    width: 90%;
+    height: 50px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 25px;
+}
+
+.menu a{
+    color: #CEFF51;
+    text-decoration: none;
+    padding: 15px;
+    font-weight: bolder;
+}
+
+.menu a:hover{
+    color: white;
+}
+
+
+/* Submenus del nav */
+
+.menu .submenu{
+    position: absolute;
+    list-style-type: none;
+    display: none;
+}
+
+.menu .submenu .sub_i{
+    font-size: 1rem;
+    display: flex;
+    padding: 5px;
+}
+
+.menu .item:hover .submenu{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+/* Titulares, secciones, textos y contenido*/
+
+.titular{
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 1.3rem;
+}
+.titular2{
+    color: #CECECE;
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 22px;
+}
+
+.titular-bg{
+    background-color: rgba(0, 0, 0, 0.6);
+    max-width: 400px;
+    margin: auto;
+}
+
+.titular-bg-sub{
+    background-color: rgba(0, 0, 0, 0.6);
+    max-width: 800px;
+    margin: auto;
+}
+
+.textos{
+    background-color: rgba(0, 0, 0, 0.493);
+    max-width: 700px;
+    margin: 10px auto;
+}
+
+.section1{
+    display: flex;
+    padding: 10px;
+    margin: 50px;
+    text-align: center;
+    font-size: 20px;
+    flex-direction: column;
+}
+
+.section2{
+    padding: 10px;
+    margin: 50px;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+/* Estilo de imagenes y bg none */
+
+.galeria{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.ipsc{
+    opacity: .6;
+}
+
+.ipsc img{
+    width: 500px;
+    height: 400px;
+    padding: 10px;
+}
+
+.ipsc:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.nbg{
+    background-image: none;
+}
+
+/* Productos y Accesorios */
+
+.armas .arma img, .accesorios .accesorio img{
+    background: rgba(0, 0, 0, 0.9);
+    width: 90%;
+    margin: 30px auto 0;
+    padding: 20px;
+    height: 250px;
+    width: auto;
+}
+
+.armas, .accesorios{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 35px;
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2px;
+    color: #CEFF51;
+    font-size: 15px;
+    background: rgba(0, 0, 0, 0.9);
+    border: #CEFF51 1px solid;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+/* Formulario */
+
+.formulario .contacto{
+    background-color: rgba(0, 0, 0, 0.699);
+    width: 90%;
+    margin: auto;
+    max-width: 700px;
+    padding: 5px 20px;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.formulario .contacto .label{
+    display: block;
+    color: #CECECE;
+    font-size: 20px;
+    position: relative;
+}
+
+.formulario .contacto .input, .textarea{
+    background: #cecece31;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #CEFF51;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    font-size: 13px;
+}
+
+.formulario .contacto .textarea{
+    resize: vertical;
+    min-height: 100px;
+    max-height: 250px;
+}
+
+.formulario .contacto .submit{
+    width: 60%;
+    outline: none;
+    background: #ceff518f;
+    font-size: 16px;
+    border: none;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.formulario .contacto .submit:hover{
+    background-color: #ceff51;
+}
+
+.input, .textarea{
+    font-family: Allerta-Regular;
+}
