@@ -111,7 +111,7 @@ nav{
 /* Submenus del nav */
 
 .menu .submenu{
-    position: absolute;
+    position: fixed;
     list-style-type: none;
     display: none;
 }
