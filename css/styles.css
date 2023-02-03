@@ -238,9 +238,10 @@ span {
     margin-bottom: 25px;
 }
 
-/* Formulario */
+/* Formulario BS */
 
-.formulario .contacto{
+
+.formulario{
     background-color: rgba(0, 0, 0, 0.699);
     width: 90%;
     margin: auto;
@@ -250,16 +251,9 @@ span {
     padding-bottom: 30px;
     border-radius: 10px;
     text-align: center;
-}
 
-.formulario .contacto .label{
-    display: block;
-    color: #CECECE;
-    font-size: 20px;
-    position: relative;
 }
-
-.formulario .contacto .input, .textarea{
+.textarea{
     background: #cecece31;
     border: none;
     outline: none;
@@ -269,28 +263,16 @@ span {
     margin-bottom: 20px;
     border-radius: 3px;
     font-size: 13px;
-}
-
-.formulario .contacto .textarea{
     resize: vertical;
     min-height: 100px;
     max-height: 250px;
 }
 
-.formulario .contacto .submit{
-    width: 60%;
+.btn-yellow{
+    width: 40%;
     outline: none;
     background: #ceff518f;
     font-size: 16px;
-    border: none;
     padding: 10px 0;
     cursor: pointer;
-}
-
-.formulario .contacto .submit:hover{
-    background-color: #ceff51;
-}
-
-.input, .textarea{
-    font-family: Allerta-Regular;
 }
