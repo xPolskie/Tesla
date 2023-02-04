@@ -75,7 +75,6 @@ footer{
     animation-name: logo;
     animation-duration: 0.5s;
     animation-iteration-count: infinite;
-    transition: all;
 }
 
 .logo-section{
@@ -101,8 +100,10 @@ nav{
 }
 
 .nav-link:hover{
-    border-bottom: #CEFF51 2px solid;
     color: white;
+    border-bottom: #CEFF51 2px solid;
+    animation-name: borde;
+    animation-duration: 1s;
 }
 
 
@@ -252,6 +253,8 @@ nav{
     cursor: pointer;
 }
 
+/* Keyframes */
+
 @keyframes logo {
     0%   {border-color: red;}
     25%  {border-color: yellow;}
@@ -259,4 +262,10 @@ nav{
     100% {border-color: green;
     border: green 5px solid;}
 }
+
+@keyframes borde {
+    from {border-bottom: #ceff5100 2px solid;}
+    to {border-bottom: #CEFF51 2px solid;}
+}
+
 
