@@ -135,26 +135,16 @@ nav{
 }
 
 .textos{
-    background-color: rgba(0, 0, 0, 0.493);
     max-width: 700px;
-    margin: 10px auto;
+    margin: auto;
     overflow-x: auto;
 }
 
-.section1, .section2{
-    display: flex;
-    padding: 10px;
-    margin: 50px;
-    text-align: center;
-    font-size: 20px;
-    flex-direction: column;
-}
-
-.section2{
+.row{
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
     font-size: 17px;
-    font-weight: bold;
 }
-
 /* Estilo de imagenes y bg none */
 
 .carousel{
