@@ -137,6 +137,7 @@ nav{
     background-color: rgba(0, 0, 0, 0.493);
     max-width: 700px;
     margin: 10px auto;
+    overflow-x: auto;
 }
 
 .section1, .section2{
@@ -258,9 +259,4 @@ nav{
     100% {border-color: green;
     border: green 5px solid;}
 }
-@keyframes logo-section {
-    0%   {width: 20%;}
-    25%  {width: 30%;}
-    50%  {width: 40%;}
-    100% {width: 50%;}
-}
+
