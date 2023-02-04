@@ -75,11 +75,18 @@ footer{
     animation-name: logo;
     animation-duration: 0.5s;
     animation-iteration-count: infinite;
+    transition: all;
 }
 
 .logo-section{
     background: none;
     width: 20%;
+    transition-property: width;
+    transition-duration: 2s;
+}
+
+.logo-section:hover{
+    width: 30%;
 }
 
 /* nav */
@@ -248,5 +255,12 @@ nav{
     0%   {border-color: red;}
     25%  {border-color: yellow;}
     50%  {border-color: blue;}
-    100% {border-color: green;}
+    100% {border-color: green;
+    border: green 5px solid;}
+}
+@keyframes logo-section {
+    0%   {width: 20%;}
+    25%  {width: 30%;}
+    50%  {width: 40%;}
+    100% {width: 50%;}
 }
