@@ -59,12 +59,7 @@ footer{
     font-size: 10px;
 }
 
-/* Navegador/Menu y Logo */
-
-nav{
-    text-align: center;
-    padding: 10px;
-}
+/* Logo */
 
 .logo, .logo-section{
     background-color: #7676763f;
@@ -84,48 +79,21 @@ nav{
     width: 20%;
 }
 
-.menu{
-    list-style-type: none;
-    padding: 0;
-    width: 90%;
-    height: 50px;
-    margin: 10px auto;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+
+/* nav */
+
+nav{
     font-size: 25px;
+    z-index: 1;
 }
 
-.menu a{
+.nav-link{
     color: #CEFF51;
-    text-decoration: none;
-    padding: 15px;
-    font-weight: bolder;
 }
 
-.menu a:hover{
+.nav-link:hover{
+    border-bottom: #CEFF51 2px solid;
     color: white;
-}
-
-
-/* Submenus del nav */
-
-.menu .submenu{
-    position: fixed;
-    list-style-type: none;
-    display: none;
-}
-
-.menu .submenu .sub_i{
-    font-size: 1rem;
-    display: flex;
-    padding: 5px;
-}
-
-.menu .item:hover .submenu{
-    display: flex;
-    flex-direction: row;
-    background-color: rgba(0, 0, 0, 0.5);
 }
 
 
@@ -226,7 +194,7 @@ nav{
     padding-top: 35px;
 }
 
-span {
+.descripcion {
     display: flex;
     justify-content: center;
     padding-bottom: 2px;
