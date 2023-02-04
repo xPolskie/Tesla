@@ -157,26 +157,10 @@ nav{
 
 /* Estilo de imagenes y bg none */
 
-.galeria{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.galeria_ipsc{
-    opacity: .6;
-}
-
-.galeria_ipsc img{
-    width: 500px;
-    height: 400px;
-    padding: 10px;
-}
-
-.galeria_ipsc:hover{
-    opacity: 1;
-    transform: scale(1.1);
+.carousel{
+    margin: auto;
+    width: 60%;
+    max-width: 700px;
 }
 
 .nbg{
@@ -194,11 +178,15 @@ nav{
     width: auto;
 }
 
+.foto_arma{
+    margin-right: 15px;
+}
+
 .armas, .accesorios{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-top: 35px;
 }
 
