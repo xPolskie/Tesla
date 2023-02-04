@@ -53,7 +53,7 @@ footer{
     margin: 10px auto;
 }
 
-.rights{
+.teslaArms_rights{
     max-width: 500px;
     margin: 10px auto;
     font-size: 10px;
@@ -156,17 +156,17 @@ nav{
     justify-content: space-evenly;
 }
 
-.ipsc{
+.galeria_ipsc{
     opacity: .6;
 }
 
-.ipsc img{
+.galeria_ipsc img{
     width: 500px;
     height: 400px;
     padding: 10px;
 }
 
-.ipsc:hover{
+.galeria_ipsc:hover{
     opacity: 1;
     transform: scale(1.1);
 }
@@ -177,7 +177,7 @@ nav{
 
 /* Productos y Accesorios */
 
-.armas .arma img, .accesorios .accesorio img{
+.armas .foto_arma img, .accesorios .accesorio img{
     background: rgba(0, 0, 0, 0.9);
     width: 90%;
     margin: 30px auto 0;
