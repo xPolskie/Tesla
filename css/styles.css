@@ -72,13 +72,15 @@ footer{
     transform: scale(1.05);
     border: #CEFF51 2px solid;
     max-height: 126px;
+    animation-name: logo;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
 }
 
 .logo-section{
     background: none;
     width: 20%;
 }
-
 
 /* nav */
 
@@ -130,7 +132,7 @@ nav{
     margin: 10px auto;
 }
 
-.section1{
+.section1, .section2{
     display: flex;
     padding: 10px;
     margin: 50px;
@@ -140,11 +142,8 @@ nav{
 }
 
 .section2{
-    padding: 10px;
-    margin: 50px;
     font-size: 17px;
     font-weight: bold;
-    font-style: oblique;
 }
 
 /* Estilo de imagenes y bg none */
@@ -243,4 +242,11 @@ nav{
     font-size: 16px;
     padding: 10px 0;
     cursor: pointer;
+}
+
+@keyframes logo {
+    0%   {border-color: red;}
+    25%  {border-color: yellow;}
+    50%  {border-color: blue;}
+    100% {border-color: green;}
 }
