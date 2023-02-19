@@ -154,6 +154,9 @@ footer {
     max-width: 500px;
     margin: 10px auto;
     font-size: 10px; }
+  footer .redes i {
+    color: #CEFF51;
+    border: 0; }
 
 @keyframes borde {
   from {
