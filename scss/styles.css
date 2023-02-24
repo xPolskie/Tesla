@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Allerta-Regular;
+  src: url(../assets/fonts/Allerta-Regular.ttf);
+}
+body {
+  font-family: Allerta-Regular;
+  letter-spacing: 2px;
+  background-color: black;
+}
+
+header .logo {
+  background-color: rgba(118, 118, 118, 0.2470588235);
+  text-align: center;
+  padding: 10px;
+  margin: 10px auto;
+}
+header .logo_arms:hover {
+  transform: scale(1.05);
+  border: #CEFF51 2px solid;
+  max-height: 126px;
+}
+header nav {
+  font-size: 25px;
+  z-index: 1;
+}
+header nav .nav-link {
+  color: #CEFF51;
+}
+header nav .nav-link:hover {
+  color: white;
+  border-bottom: #CEFF51 2px solid;
+  animation-name: borde;
+  animation-duration: 1s;
+}
+
+main {
+  color: #CECECE;
+  background-image: url(../assets/img/background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 20px;
+}
+main .titular {
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  font-size: 1.3rem;
+}
+main .titular2 {
+  color: #CECECE;
+  text-align: center;
+  padding: 20px 20px;
+  font-size: 22px;
+}
+main .titular-bg {
+  background-color: rgba(0, 0, 0, 0.6);
+  max-width: 400px;
+  margin: auto;
+}
+main .titular-bg-sub {
+  background-color: rgba(0, 0, 0, 0.6);
+  max-width: 800px;
+  margin: auto;
+}
+main .textos {
+  max-width: 700px;
+  margin: auto;
+  overflow-x: auto;
+}
+main .row {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 17px;
+}
+main .logo-section {
+  background: none;
+  width: 20%;
+  transition-property: width;
+  transition-duration: 2s;
+}
+main .logo-section:hover {
+  width: 30%;
+}
+main .carousel {
+  margin: auto;
+  width: 60%;
+  max-width: 700px;
+}
+main .formulario {
+  background-color: rgba(0, 0, 0, 0.699);
+  width: 90%;
+  margin: auto;
+  max-width: 700px;
+  padding: 5px 20px;
+  margin-top: 20px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+main .textarea {
+  background: rgba(206, 206, 206, 0.1921568627);
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #CEFF51;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  font-size: 13px;
+  resize: vertical;
+  min-height: 100px;
+  max-height: 250px;
+}
+main .btn-yellow {
+  width: 40%;
+  outline: none;
+  background: rgba(206, 255, 81, 0.5607843137);
+  font-size: 16px;
+  padding: 10px 0;
+  cursor: pointer;
+}
+main .armas .foto_arma img, main .accesorios .accesorio img {
+  background: rgba(0, 0, 0, 0.9);
+  width: 90%;
+  margin: 30px auto 0;
+  padding: 20px;
+  height: 250px;
+  width: auto;
+}
+main .foto_arma {
+  margin-right: 15px;
+}
+main .armas, main .accesorios {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 35px;
+}
+main .descripcion {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2px;
+  color: #CEFF51;
+  font-size: 15px;
+  background: rgba(0, 0, 0, 0.9);
+  border: #CEFF51 1px solid;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+
+.nbg {
+  background-image: none;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(118, 118, 118, 0.2470588235);
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  flex-direction: column;
+  color: #CEFF51;
+  font-style: italic;
+  margin: 10px auto;
+}
+footer .teslaArms {
+  max-width: 500px;
+  margin: 10px auto;
+}
+footer .teslaArms_rights {
+  max-width: 500px;
+  margin: 10px auto;
+  font-size: 10px;
+}
+footer .redes i {
+  color: #CEFF51;
+  border: 0;
+}
+
+@keyframes borde {
+  from {
+    border-bottom: rgba(206, 255, 81, 0) 2px solid;
+  }
+  to {
+    border-bottom: #CEFF51 2px solid;
+  }
+}/*# sourceMappingURL=styles.css.map */
