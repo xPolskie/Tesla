@@ -1,0 +1,27 @@
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color:#7676763f ;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    flex-direction: column;
+    color: $color_principal;
+    font-style: italic;
+    margin: 10px auto;
+    .teslaArms{
+        max-width: 500px;
+        margin: 10px auto;
+    }
+    .teslaArms_rights{
+        max-width: 500px;
+        margin: 10px auto;
+        font-size: 10px;
+    }
+    .redes{
+        i{
+            color: $color_principal;
+            border: 0;
+        }
+    }
+}

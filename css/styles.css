@@ -1,11 +1,11 @@
+@font-face {
+  font-family: Allerta-Regular;
+  src: url(../assets/fonts/Allerta-Regular.ttf); }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
-
-@font-face {
-  font-family: Allerta-Regular;
-  src: url(../assets/fonts/Allerta-Regular.ttf); }
 
 body {
   font-family: Allerta-Regular;
@@ -133,9 +133,6 @@ main {
     border-radius: 5px;
     margin-bottom: 25px; }
 
-.nbg {
-  background-image: none; }
-
 footer {
   text-align: center;
   padding: 10px;
@@ -157,6 +154,9 @@ footer {
   footer .redes i {
     color: #CEFF51;
     border: 0; }
+
+.nbg {
+  background-image: none; }
 
 @keyframes borde {
   from {

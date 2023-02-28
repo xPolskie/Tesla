@@ -1,3 +1,29 @@
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(118, 118, 118, 0.2470588235);
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  flex-direction: column;
+  color: #CEFF51;
+  font-style: italic;
+  margin: 10px auto;
+}
+footer .teslaArms {
+  max-width: 500px;
+  margin: 10px auto;
+}
+footer .teslaArms_rights {
+  max-width: 500px;
+  margin: 10px auto;
+  font-size: 10px;
+}
+footer .redes i {
+  color: #CEFF51;
+  border: 0;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -157,32 +183,6 @@ main .descripcion {
 
 .nbg {
   background-image: none;
-}
-
-footer {
-  text-align: center;
-  padding: 10px;
-  background-color: rgba(118, 118, 118, 0.2470588235);
-  display: flex;
-  justify-content: center;
-  font-size: 12px;
-  flex-direction: column;
-  color: #CEFF51;
-  font-style: italic;
-  margin: 10px auto;
-}
-footer .teslaArms {
-  max-width: 500px;
-  margin: 10px auto;
-}
-footer .teslaArms_rights {
-  max-width: 500px;
-  margin: 10px auto;
-  font-size: 10px;
-}
-footer .redes i {
-  color: #CEFF51;
-  border: 0;
 }
 
 @keyframes borde {

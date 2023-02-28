@@ -1,0 +1,26 @@
+header{
+    .logo{
+        background-color: #7676763f;
+    text-align: center;
+    padding: 10px;
+    margin: 10px auto;
+    }
+    .logo_arms:hover{
+        transform: scale(1.05);
+        border: $color_principal 2px solid;
+        max-height: 126px;
+    }
+    nav{
+        font-size: 25px;
+        z-index: 1;
+        .nav-link{
+            color: #CEFF51;
+        &:hover{
+            color: white;
+            border-bottom: #CEFF51 2px solid;
+            animation-name: borde;
+            animation-duration: 1s;
+        }
+        }
+    }
+}
