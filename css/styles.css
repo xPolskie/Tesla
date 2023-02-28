@@ -23,10 +23,14 @@ header .logo_arms:hover {
   border: #CEFF51 2px solid;
   max-height: 126px; }
 
+header .dropdown-menu {
+  background-color: #CEFF51; }
+
 header nav {
   font-size: 25px;
   z-index: 1; }
   header nav .nav-link {
+    height: 50px;
     color: #CEFF51; }
     header nav .nav-link:hover {
       color: white;

@@ -1,3 +1,5 @@
+$color_principal: #CEFF51;
+
 @font-face{
     font-family: Allerta-Regular;
     src: url(../assets/fonts/Allerta-Regular.ttf);
@@ -8,8 +10,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-$color_principal: #CEFF51;
 
 @import 'body';
 @import 'header';
@@ -24,3 +24,4 @@ $color_principal: #CEFF51;
     from {border-bottom: #ceff5100 2px solid;}
     to {border-bottom: $color_principal 2px solid;}
 }
+

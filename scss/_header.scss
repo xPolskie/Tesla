@@ -10,14 +10,18 @@ header{
         border: $color_principal 2px solid;
         max-height: 126px;
     }
+    .dropdown-menu{
+        background-color: $color_principal;
+    }
     nav{
         font-size: 25px;
         z-index: 1;
         .nav-link{
-            color: #CEFF51;
+            height: 50px;
+            color: $color_principal;
         &:hover{
             color: white;
-            border-bottom: #CEFF51 2px solid;
+            border-bottom: $color_principal 2px solid;
             animation-name: borde;
             animation-duration: 1s;
         }
